@@ -7,7 +7,7 @@ import sqlite3
 import random
 import time
 import re
-import json?
+import json
 import telethon
 from telethon import Button
 from datetime import datetime
