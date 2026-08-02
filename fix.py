@@ -93,7 +93,7 @@ async def is_joined_channel(user_id):
         print("VERIFY ERROR:", e)
         return False
         
-CHANNEL_USERNAME = "@YorichiFeedback"        
+CHANNEL_USERNAME ="SbFeedbackZone"        
 # File paths
 PREMIUM_FILE = 'premium.txt'
 SITES_FILE = 'sites.txt'
@@ -104,7 +104,7 @@ KEYS_FILE = "keys.txt"
 DAILY_USAGE_FILE = "daily_usage.json"
 # 🔴 TOP PE ADD KARO (SITES_FILE ke neeche):
 RZ_SITES_FILE = 'rz_sites.txt'        # ✅ Razorpay sites file
-PHOTO_URL = "https://i.postimg.cc/NMfk3jpP/Leo4youh.png"  # ← अपना असली Link
+PHOTO_URL = "https://graph.org/file/6f42a284ac65f11ae7f07-0bd3579bfff4452760.jpg"  # ← अपना असली Link
 # Initialize bot
 bot = TelegramClient('checker_bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 # RAZORPAY SINGLE SITE (koi sites1.txt nahi)
