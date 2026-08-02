@@ -93,7 +93,7 @@ async def is_joined_channel(user_id):
         print("VERIFY ERROR:", e)
         return False
         
-CHANNEL_USERNAME = "@SbFeedbackZone"        
+CHANNEL_USERNAME = "SbFeedbackZone"        
 # File paths
 PREMIUM_FILE = 'premium.txt'
 SITES_FILE = 'sites.txt'
