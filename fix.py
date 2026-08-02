@@ -76,9 +76,9 @@ SHOPIFY_APIS = [
 
 API_ID = '36365663'
 API_HASH = 'e7012a5288cceaedfd4f084ec859061d'
-BOT_TOKEN = '8972233272:AAHaOvAOnDv85DAc7ExyTmLZDWhhdeiIGNk'
-ADMIN_ID = 6729601755,5346946852
-KEY_ADMINS = {6729601755,5346946852}
+BOT_TOKEN = '8817181082:AAFFCrl3EjtZbpYCdevI25YgJWZ_lgralNw'
+ADMIN_ID = 6729601755,6903379369
+KEY_ADMINS = {6729601755,6903379369}
 # ============================================================
 # GLOBAL VARIABLES
 # ============================================================
