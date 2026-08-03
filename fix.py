@@ -2240,8 +2240,8 @@ async def start(event):
 
         # ✅ 2 CHANNEL BUTTONS (UPAR) + 1 VERIFY BUTTON (NICHE - DANGER RED)
         join_buttons = [
-            [Button.url(" 𝙂𝙍𝙊𝙐𝙋 💭 ", f"https://t.me/URF_NOVA_GC")],
-            [Button.url(" 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 📣 ", "https://t.me/+st5t-0Y_PuQzMjM1")],
+            [Button.url(" 𝙂𝙍𝙊𝙐𝙋 💭 ", f"https://t.me/simplebots2019")],
+            [Button.url(" 𝙐𝙋𝘿𝘼𝙏𝙀𝙎 📣 ", "https://t.me/SbFeedbackZone")],
             [Button.inline(" 𝙑𝙀𝙍𝙄𝙁𝙔 ✅", b"verify")],
         ]
 
