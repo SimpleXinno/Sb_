@@ -2281,6 +2281,7 @@ async def verify_handler(event):
             "❌ Dono channel join karo pehle!",
             alert=True
         )        
+
 # ==================== SUPPORT MENU ====================
 @bot.on(events.CallbackQuery(data=b"support_menu"))
 async def support_menu(event):
@@ -4355,7 +4356,7 @@ async def run_chk(data, sites):
     finally:
         # ✅ DEAD SITES DELETE KARO (SIRF GLOBAL SITES.TXT SE)
         if dead_sites_to_remove and is_admin_user:
-            current_sites = load_sites(
+            current_sites = load_sites()
             new_sites = [s for s in current_sites if s not in dead_sites_to_remove]
             if len(new_sites) != len(current_sites):
                 async with aiofiles.open(SITES_FILE, 'w') as f:
@@ -5013,3 +5014,4 @@ if __name__ == "__main__":
 
 # NAYA ✅
 
+ 
