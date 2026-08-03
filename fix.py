@@ -25,7 +25,7 @@ PREMIUM_EMOJI_IDS = {
     "⚡": "6026367225466720832",   # ⚡ Yellow Lightning Bolt
     "💠": "5971837723676249096",   # 🌀 Neon Circle Rings
     "⏸️": "6001440193058444284",   # ⚙️ Arc Reactor
-    "▶️": "6285315214673975495",   # ➡️ Neon Arrow Right
+    "▶️": "6285315214673975495",   # ➡️ )Neon Arrow Right
     "🛑": "5420323339723881652",   # ⚠️ Red Warning Triangle
     "📊": "5971837723676249096",   # 🌀
     "📦": "6066395745139824604",   # 🎀 Neon Pink Bow,
@@ -91,7 +91,7 @@ async def is_joined_channel(user_id):
         print("VERIFY ERROR:", e)
         return False
         
-CHANNEL_USERNAME = "Chirgg_911"        
+CHANNEL_USERNAME = "SbFeedbackZone"        
 # File paths
 PREMIUM_FILE = 'premium.txt'
 SITES_FILE = 'sites.txt'
@@ -2214,9 +2214,9 @@ async def start(event):
                 Button.inline("  𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🆘  ", b"support_menu"),
             ],
             [
-                Button.url("  𝙐𝙋𝘿𝘼𝙏𝙀𝙎 📣  ", f"https://t.me/SbFeedbackZone"),
-                Button.url("  𝙂𝙍𝙊𝙐𝙋 💭  ", f"https://t.me/simplebots2019"),
-            ]
+                Button.url("  𝙐𝙋𝘿𝘼𝙏𝙀𝙎 📣  ", f"https://t.me/simplebots2019"),
+                Button.url("  𝙂𝙍𝙊𝙐𝙋 💭  ", f"https://t.me/SbFeedbackZone"),
+            ],
         ]
 
         await bot.send_file(
@@ -2230,7 +2230,7 @@ async def start(event):
 
     else:
         # ✅ JOIN MESSAGE - 2 CHANNEL BUTTONS + 1 VERIFY BUTTON
-        join_msg = f"""<b>𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙝𝙤𝙥𝙞𝙞 𝙓 𝙍𝙯𝙧 𝘽𝙊𝙏</b>
+        join_msg = f"""<b>𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙎𝙝𝙤𝙥𝙞𝙞 𝙓 𝐒𝐁 𝘽𝙊𝙏</b>
 ━━━━━━━━━━━━━━━━━━━━
 <b>👑 User: <a href="tg://user?id={user_id}">{first_name}</a></b>
 <b>✅ User ID: <code>{user_id}</code></b>
@@ -2264,7 +2264,7 @@ async def verify_handler(event):
     
     # Channel 2 check
     try:
-        ch2 = await bot.get_entity("https://t.me/simplebots2019")  # Ya tera channel entity
+        ch2 = await bot.get_entity("https://t.me/SbFeedbackZone")  # Ya tera channel entity
         await bot.get_permissions(ch2, user_id)
         joined_ch2 = True
     except:
@@ -4355,7 +4355,7 @@ async def run_chk(data, sites):
     finally:
         # ✅ DEAD SITES DELETE KARO (SIRF GLOBAL SITES.TXT SE)
         if dead_sites_to_remove and is_admin_user:
-            current_sites = load_sites()
+            current_sites = load_sites(
             new_sites = [s for s in current_sites if s not in dead_sites_to_remove]
             if len(new_sites) != len(current_sites):
                 async with aiofiles.open(SITES_FILE, 'w') as f:
@@ -5013,4 +5013,3 @@ if __name__ == "__main__":
 
 # NAYA ✅
 
- 
