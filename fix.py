@@ -2495,8 +2495,8 @@ async def back_to_start(event):
             Button.inline("𝙎𝙐𝙋𝙋𝙊𝙍𝙏 🆘", b"support_menu"),
         ],
         [
-            Button.url("𝙐𝙋𝘿𝘼𝙏𝙀𝙎", f"https://t.me/+st5t-0Y_PuQzMjM1"),
-            Button.url("𝙂𝙍𝙊𝙐𝙋", f"https://t.me/URF_NOVA_GC"),
+            Button.url("𝙐𝙋𝘿𝘼𝙏𝙀𝙎", f"https://t.me/SbFeedbackZone"),
+            Button.url("𝙂𝙍𝙊𝙐𝙋", f"https://t.me/simplebots2019"),
         ],
     ]
 
