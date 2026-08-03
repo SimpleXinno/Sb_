@@ -74,9 +74,9 @@ SHOPIFY_APIS = [
 
 API_ID = '36365663'
 API_HASH = 'e7012a5288cceaedfd4f084ec859061d'
-BOT_TOKEN = '8876623486:AAGwQG6cbVdbEQsh8gCnkJ1sxXQLaZv9vvo'
-ADMIN_ID =  6729601755
-KEY_ADMINS = {6729601755}
+BOT_TOKEN = '8817181082:AAF8lD1NoXB5TNb0SXYKoGfZa3rQxRtaqvE'
+ADMIN_ID =  6729601755,6903379369
+KEY_ADMINS = {6729601755,6903379369}
 # ============================================================
 # GLOBAL VARIABLES
 # ============================================================
@@ -102,7 +102,7 @@ KEYS_FILE = "keys.txt"
 DAILY_USAGE_FILE = "daily_usage.json"
 # 🔴 TOP PE ADD KARO (SITES_FILE ke neeche):
 RZ_SITES_FILE = 'rz_sites.txt'        # ✅ Razorpay sites file
-PHOTO_URL = "https://i.pinimg.com/1200x/3e/7a/2e/3e7a2e39526c57bb397ae134a58b4c9c.jpg"  # ← अपना असली Lin
+PHOTO_URL = "https://graph.org/file/6f42a284ac65f11ae7f07-0bd3579bfff4452760.jpg"  # ← अपना असली Lin
 # Initialize bot
 bot = TelegramClient('checker_bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 # RAZORPAY SINGLE SITE (koi sites1.txt nahi)
