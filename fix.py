@@ -67,14 +67,14 @@ def premium_emoji(text):
     return result
 
 SHOPIFY_APIS = [
-    "http://shopii-api-production.up.railway.app/shopify?",
+    "https://sb-shopi-api.onrender.com/shopify",
     "https://balanced-presence-production-c2f7.up.railway.app/shopify",
     
 ]
 
 API_ID = '36365663'
 API_HASH = 'e7012a5288cceaedfd4f084ec859061d'
-BOT_TOKEN = '8817181082:AAF8lD1NoXB5TNb0SXYKoGfZa3rQxRtaqvE'
+BOT_TOKEN = '8817181082:AAEs9fNA8Lt8V7hKR_8KFM-ukDWnME-BHxs'
 ADMIN_ID =  6903379369
 KEY_ADMINS = {6903379369}
 # ============================================================
