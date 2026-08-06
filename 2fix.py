@@ -67,8 +67,8 @@ def premium_emoji(text):
     return result
 
 SHOPIFY_APIS = [
-    "http://shopii-api-production.up.railway.app/shopify",
-    "http://web-production-b4b4f.up.railway.app/shopify",
+    "https://sb-shopi-api.onrender.com/shopify?",
+    "https://sb-shopi-api.onrender.com/shopify?",
     "http://viproot.xyz/shopify",
     "http://should.up.railway.app/shopify",
 
@@ -76,9 +76,9 @@ SHOPIFY_APIS = [
 
 API_ID = '36365663'
 API_HASH = 'e7012a5288cceaedfd4f084ec859061d'
-BOT_TOKEN = '8817181082:AAFFCrl3EjtZbpYCdevI25YgJWZ_lgralNw'
-ADMIN_ID = 6729601755,6903379369
-KEY_ADMINS = {6729601755,6903379369}
+BOT_TOKEN = '8817181082:AAEs9fNA8Lt8V7hKR_8KFM-ukDWnME-BHxs'
+ADMIN_ID = 6903379369
+KEY_ADMINS = {6903379369}
 # ============================================================
 # GLOBAL VARIABLES
 # ============================================================
