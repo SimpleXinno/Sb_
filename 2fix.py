@@ -67,9 +67,7 @@ def premium_emoji(text):
     return result
 
 SHOPIFY_APIS = [
-    "https://sb-shopi-api.onrender.com/shopify?",
-    "https://sb-shopi-api.onrender.com/shopify?",
-    "http://viproot.xyz/shopify",
+    "https://bao-production-6dfe.up.railway.app/shopify?site=https://juniperandspruce.myshopify.com&cc=5285460131620610|05|2027|471&proxy=",
     "http://should.up.railway.app/shopify",
 
 ]
